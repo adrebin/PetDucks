@@ -41,12 +41,12 @@ class Duck {
   }
   
   grow(){
-    console.log("growing a");
-    this.size = this.size + 1;
+    console.log("growing");
+    this.size = this.size + 10;
   }
   
   shrink(){
-    console.log("shrinking a");
+    console.log("shrinking");
     this.size = this.size - 1;
   }
   
