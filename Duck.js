@@ -42,7 +42,7 @@ class Duck {
   
   grow(){
     console.log("growing");
-    this.size = this.size + 100;
+    this.size = this.size + 15;
   }
   
   shrink(){
