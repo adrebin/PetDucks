@@ -60,7 +60,9 @@ class DuckSystem{
         
         if(overlaps){
           duck.grow();
+	  console.log("before breads: ", this.breads);
           this.breads.splice(b, 1);
+	  console.log("after breads: ", this.breads, " at:", b);
           didEat = true;
         }
       }
